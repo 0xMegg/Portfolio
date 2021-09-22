@@ -2,8 +2,6 @@ package co.sp.beans;
 
 import javax.validation.constraints.NotBlank;
 
-import org.springframework.web.multipart.MultipartFile;
-
 public class Content {
 	private int content_idx;
 	
@@ -61,6 +59,4 @@ public class Content {
 	public void setContent_writer_name(String content_writer_name) {
 		this.content_writer_name = content_writer_name;
 	}
-	
-	
 }

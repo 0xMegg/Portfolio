@@ -6,7 +6,6 @@ import org.springframework.web.context.annotation.SessionScope;
 
 import co.sp.beans.User;
 
-
 @Configuration
 public class RootContext {
 	

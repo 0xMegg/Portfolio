@@ -1,6 +1,5 @@
 package co.sp.config;
 
-
 import javax.annotation.Resource;
 
 import org.apache.commons.dbcp2.BasicDataSource;
@@ -33,8 +32,6 @@ import co.sp.mapper.UserMapper;
 import co.sp.service.BoardService;
 import co.sp.service.TopMenuService;
 
-
-
 @Configuration
 @EnableWebMvc
 
@@ -66,7 +63,6 @@ public class ServletApp implements WebMvcConfigurer{
 	@Autowired
 	private BoardService boardService;
 	
-	
 	@Override
 	public void configureViewResolvers(ViewResolverRegistry registry) {
 		// TODO Auto-generated method stub
@@ -74,14 +70,12 @@ public class ServletApp implements WebMvcConfigurer{
 		registry.jsp("/WEB-INF/views/", ".jsp");
 	}
 	
-	
 	@Override
 	public void addResourceHandlers(ResourceHandlerRegistry registry) {
 		// TODO Auto-generated method stub
 		WebMvcConfigurer.super.addResourceHandlers(registry);
 		registry.addResourceHandler("/**").addResourceLocations("/resources/");
 	}
-	
 
 	@Bean
 	public BasicDataSource dataSource() {
@@ -94,7 +88,7 @@ public class ServletApp implements WebMvcConfigurer{
 		return source;
 	}
 	
-	// ?‘?‡°?”?‡¾ë©¸ë‚µ ï¿½ì ’ï¿½ëƒ½ ï¿½ì ™è¹‚ë?ï¿½ï¿½ ?„¿ï¿½ç”±?‹ë¸¯ï¿½ë’— åª›ì•¹ê»?
+	// ?ï¿½ï¿½?ï¿½ï¿½?ï¿½ï¿½?ï¿½ï¿½ë©¸ë‚µ ï¿½ì ’ï¿½ëƒ½ ï¿½ì ™è¹‚ï¿½?ï¿½ï¿½ ?ï¿½ï¿½ï¿½ç”±?ï¿½ë¸¯ï¿½ë’— åª›ì•¹ï¿½?
 	@Bean
 	public SqlSessionFactory factory(BasicDataSource source) throws Exception{
 		SqlSessionFactoryBean factoryBean = new SqlSessionFactoryBean();
@@ -162,13 +156,3 @@ public class ServletApp implements WebMvcConfigurer{
 		return new StandardServletMultipartResolver();
 	}
 }
-
-
-
-
-
-
-
-
-
-

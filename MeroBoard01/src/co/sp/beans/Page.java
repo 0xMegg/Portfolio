@@ -3,23 +3,15 @@ package co.sp.beans;
 public class Page {
 	
 	private int min;
-	
 	private int max;
-	
 	private int prevPage;
-	
 	private int nextPage;
-	
 	private int pageCnt;
-
 	private int currentPage;
-	
-	
 	
 	public Page(int contentCount, int currentPage, int contentPageCount, int pa) {
 		
 		this.currentPage = currentPage;
-		
 		
 		pageCnt =contentCount / contentPageCount;
 		if(contentCount % contentPageCount > 0) {
@@ -58,6 +50,4 @@ public class Page {
 	public int getCurrentPage() {
 		return currentPage;
 	}
-	
-	
 }

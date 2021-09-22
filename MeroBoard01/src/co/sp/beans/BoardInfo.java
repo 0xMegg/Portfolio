@@ -16,6 +16,4 @@ public class BoardInfo {
 	public void setBoard_info_name(String board_info_name) {
 		this.board_info_name = board_info_name;
 	}
-	
-	
 }
