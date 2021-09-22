@@ -20,14 +20,3 @@ public class MainService {
 		return boardDao.getContentList(board_info_idx, rowBounds);
 	}
 }
-
-
-
-
-
-
-
-
-
-
-

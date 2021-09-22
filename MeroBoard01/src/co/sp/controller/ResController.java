@@ -21,15 +21,3 @@ public class ResController {
 		return chk + "";
 	}
 }
-
-
-
-
-
-
-
-
-
-
-
-

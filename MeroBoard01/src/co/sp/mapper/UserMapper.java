@@ -32,13 +32,3 @@ public interface UserMapper {
 			"where user_idx = #{user_idx}")
 	void modifyUserInfo(User modifyUserBean);
 }
-
-
-
-
-
-
-
-
-
-

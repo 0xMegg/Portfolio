@@ -51,21 +51,3 @@ public interface BoardMapper {
 	@Select("select count(*) from content_table where content_board_idx = #{content_board_idx}")
 	int getContentCnt(int content_board_idx);
 } 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

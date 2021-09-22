@@ -39,15 +39,3 @@ public class WriterInterceptor implements HandlerInterceptor{
 		return true;
 	}
 }
-
-
-
-
-
-
-
-
-
-
-
-

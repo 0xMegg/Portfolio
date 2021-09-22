@@ -32,11 +32,3 @@ public class UserDao {
 		userMapper.modifyUserInfo(modifyUserBean);
 	}
 }
-
-
-
-
-
-
-
-

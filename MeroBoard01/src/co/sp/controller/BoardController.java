@@ -148,11 +148,3 @@ public class BoardController {
 		return "board/not_writer";
 	}
 }
-
-
-
-
-
-
-
-

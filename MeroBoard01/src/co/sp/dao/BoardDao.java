@@ -43,13 +43,3 @@ public class BoardDao {
 		return boardMapper.getContentCnt(content_board_idx);
 	}
 }
-
-
-
-
-
-
-
-
-
-

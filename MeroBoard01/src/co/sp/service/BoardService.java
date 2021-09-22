@@ -1,6 +1,5 @@
 package co.sp.service;
 
-import java.io.File;
 import java.util.List;
 
 import javax.annotation.Resource;
@@ -10,7 +9,6 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.PropertySource;
 import org.springframework.stereotype.Service;
-import org.springframework.web.multipart.MultipartFile;
 
 import co.sp.beans.Content;
 import co.sp.beans.Page;
@@ -75,11 +73,3 @@ public class BoardService {
 		return pageBean;
 	}
 }
-
-
-
-
-
-
-
-

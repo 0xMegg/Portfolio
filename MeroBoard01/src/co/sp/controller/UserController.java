@@ -110,11 +110,3 @@ public class UserController {
 		binder.addValidators(validator1);
 	}
 }
-
-
-
-
-
-
-
-
